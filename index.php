@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toko Baju</title>
+    <title>Toko Buku</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
    <!-- Header -->
     <header>
         <div class="container">
-        <h1><a href="index.php">Toko Baju</a></h1>
+        <h1><a href="index.php">Toko Buku</a></h1>
         <ul>
             <li><a href="baju.php">Produk</a></li>
         </ul>
@@ -28,8 +28,8 @@
     <div class="cari">
         <div class="container">
             <form action="baju.php">
-                <input type="text" name="cari" placeholder="Cari Baju">
-                <input type="submit" name="search" value="Cari Baju">
+                <input type="text" name="cari" placeholder="Cari Buku">
+                <input type="submit" name="search" value="Cari Buku">
             </form>
         </div>
     </div>
@@ -75,7 +75,7 @@
                         </div>
                     </a>
                 <?php }}else { ?>
-                    <p>Baju Tidak Tersedia</p>
+                    <p>Buku Tidak Tersedia</p>
                 <?php } ?>
             </div>
         </div>
@@ -93,7 +93,7 @@
             <h4>Telepon</h4>
             <p><?php echo $a->admin_telpon ?></p>
 
-            <small>Copyright &copy; 2020 - Toko Baju.</small>
+            <small>Copyright &copy; 2020 - Toko Buku.</small>
         </div>
     </div>
 </body>

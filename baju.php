@@ -9,7 +9,7 @@ error_reporting(0);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toko Baju</title>
+    <title>Toko Buku</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@ error_reporting(0);
    <!-- Header -->
     <header>
         <div class="container">
-        <h1><a href="index.php">Toko Baju</a></h1>
+        <h1><a href="index.php">Toko Buku</a></h1>
         <ul>
             <li><a href="baju.php">Produk</a></li>
         </ul>
@@ -40,7 +40,7 @@ error_reporting(0);
     <!--Produk Baru-->
     <div class="section">
         <div class="container">
-            <h3>Baju</h3>
+            <h3>Buku</h3>
             <div class="box">
                 <?php 
                     if($_GET['cari'] != '' || $_GET['kat'] != '') {
@@ -59,7 +59,7 @@ error_reporting(0);
                         </div>
                     </a>
                 <?php }}else { ?>
-                    <p>Baju Tidak Tersedia</p>
+                    <p>Buku Tidak Tersedia</p>
                 <?php } ?>
             </div>
         </div>
@@ -77,7 +77,7 @@ error_reporting(0);
             <h4>Telepon</h4>
             <p><?php echo $a->admin_telpon ?></p>
 
-            <small>Copyright &copy; 2020 - Toko Baju.</small>
+            <small>Copyright &copy; 2020 - Toko Buku.</small>
         </div>
     </div>
 </body>

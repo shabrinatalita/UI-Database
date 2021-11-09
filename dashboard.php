@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toko Baju</title>
+    <title>Toko Buku</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
@@ -18,12 +18,11 @@
    <!-- Header -->
     <header>
         <div class="container">
-        <h1><a href="dashboard.php">Toko Baju</a></h1>
+        <h1><a href="dashboard.php">Toko Buku</a></h1>
         <ul>
             <li><a href="dashboard.php">Dashboard</a></li>
-            <li><a href="profile.php">Profile</a></li>
             <li><a href="category.php">Kategori</a></li>
-            <li><a href="clothes.php">Data Baju</a></li>
+            <li><a href="clothes.php">Data Buku</a></li>
             <li><a href="logout.php">Log Out</a></li>
         </ul>
         </div>
@@ -34,7 +33,7 @@
         <div class="container">
             <h3>Dashboard</h3>
             <div class="box">
-            <h4>Selamat Datang Admin <?php echo $_SESSION['a_global']->admin_name ?> di Toko Online</h4>
+            <h4>Selamat Datang Admin di Toko Online</h4>
             </div>
         </div>
     </div>
@@ -42,7 +41,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <small>Copyright &copy; 2020 - Toko Baju.</small>
+            <small>Copyright &copy; 2020 - Toko Buku.</small>
         </div>
     </footer>
 </body>
